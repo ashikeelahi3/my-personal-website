@@ -1,0 +1,52 @@
+#header-1 {
+  position: relative;
+  animation-name: header-1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes header-1 {
+  0% {left: -1000px;}
+  100% {left: 0px;}
+}
+
+#hire-me-btn {
+  opacity: 0;
+  animation-name: hire-me-btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hire-me-btn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#header-2 {
+  position: relative;
+  animation-name: header-2;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes header-2 {
+  0% {right: -1000px;}
+  100% {right: 0px;}
+}
+
+
+#middle-1 {
+  position: relative;
+  animation-name: middle-1;
+  animation-duration: 3s;
+  animation-delay: initial;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes middle-1 {
+  0% {left: -1000px;}
+  100% {left: 0px;}
+}
